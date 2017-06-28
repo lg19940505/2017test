@@ -1,0 +1,5 @@
+c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest\bin\Debug\asyncTest.dll
+c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest\bin\Debug\asyncTest.pdb
+c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest\obj\Debug\asyncTest.csprojResolveAssemblyReference.cache
+c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest\obj\Debug\asyncTest.dll
+c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest\obj\Debug\asyncTest.pdb

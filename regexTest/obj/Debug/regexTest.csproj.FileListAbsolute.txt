@@ -1,0 +1,6 @@
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\bin\Debug\regexTest.exe.config
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\bin\Debug\regexTest.exe
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\bin\Debug\regexTest.pdb
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.csprojResolveAssemblyReference.cache
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.exe
+C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.pdb
