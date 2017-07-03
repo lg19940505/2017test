@@ -1,0 +1,5 @@
+D:\git\test\2017test\asyncTest\bin\Debug\asyncTest.dll
+D:\git\test\2017test\asyncTest\bin\Debug\asyncTest.pdb
+D:\git\test\2017test\asyncTest\obj\Debug\asyncClass.csprojResolveAssemblyReference.cache
+D:\git\test\2017test\asyncTest\obj\Debug\asyncTest.dll
+D:\git\test\2017test\asyncTest\obj\Debug\asyncTest.pdb

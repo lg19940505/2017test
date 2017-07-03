@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btn").click(function () {
+            $.ajax({
+                url: "Home/AjaxGet",//发送到本页面后台AjaxMethod方法
+                type: "POST",
+                //async: true,//async翻译为异步的，false表示同步，会等待执行完成，true为异步
+                contentType: "application/json; charset=utf-8",//不可少
+                data: "{id:'" + "1" + "',name:'" + "wmy" + "'}",
+                success: function (data) {
+                    //$("#result").html(data.d);
+                    alert(data);
+                },
+                error: function (err) {
+                    alert("ajax错误码:" + err.status);
+                }
+            });
+        })
+    });
+</script>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AjaxGet</title>
+</head>
+<body>
+<button id="btn" style="height:100px;width:150px;"></button>
+    <div> 
+    </div>
+</body>
+</html>
