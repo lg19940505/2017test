@@ -3,3 +3,9 @@ c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest1\bin\Debu
 c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest1\bin\Debug\asyncTest1.pdb
 c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest1\obj\Debug\asyncTest1.exe
 c:\users\lg\documents\visual studio 2015\Projects\异步test\asyncTest1\obj\Debug\asyncTest1.pdb
+D:\git\test\2017test\asyncTest1\bin\Debug\asyncTest1.exe.config
+D:\git\test\2017test\asyncTest1\obj\Debug\asyncTest1.exe
+D:\git\test\2017test\asyncTest1\obj\Debug\asyncTest1.pdb
+D:\git\test\2017test\asyncTest1\bin\Debug\asyncTest1.exe
+D:\git\test\2017test\asyncTest1\bin\Debug\asyncTest1.pdb
+D:\git\test\2017test\asyncTest1\obj\Debug\asyncTest1.csprojResolveAssemblyReference.cache

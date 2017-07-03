@@ -20,13 +20,15 @@ namespace MVC_Ajax请求数据.Controllers
         {
             return View();
         }
+
+        #region mvc中ajax必须返回jsonresult  否则会执行错误代码
         [HttpPost]
-        public JsonResultModel<IEnumerable<People>> AjaxGet(int id,string name)
+        public JsonResultModel<IEnumerable<People>> AjaxGet(int id, string name)
         {
             List<People> peoples = new List<People>();
             People p1 = new People();
             p1.Id = id;
-            p1.name =name;
+            p1.name = name;
             People p2 = new People();
             p2.Id = 2;
             p2.name = "lg";
@@ -36,6 +38,23 @@ namespace MVC_Ajax请求数据.Controllers
 
 
         }
+        [HttpGet]
+        public JsonResultModel<IEnumerable<People>> AjaxGet()
+        {
+            List<People> peoples = new List<People>();
+            People p1 = new People();
+            p1.Id = 1;
+            p1.name = "ly";
+            People p2 = new People();
+            p2.Id = 2;
+            p2.name = "lg";
+            peoples.Add(p1);
+            peoples.Add(p2);
+            return JsonResultModel<IEnumerable<People>>.ReturnSuccess(peoples);
+
+
+        } 
+        #endregion
         [HttpPost]
         public JsonResult JsonGet(int id, string name)
         {
@@ -48,7 +67,7 @@ namespace MVC_Ajax请求数据.Controllers
             p2.name = "lg";
             peoples.Add(p1);
             peoples.Add(p2);
-            return Json(new {data= peoples, result = "true" }, JsonRequestBehavior.AllowGet);
+            return Json(new { data = peoples, result = "true" }, JsonRequestBehavior.AllowGet);
 
 
         }
@@ -75,7 +94,7 @@ namespace MVC_Ajax请求数据.Controllers
             public int Id { get; set; }
             [DataMember]
             public string name { get; set; }
-          
+
         }
     }
 

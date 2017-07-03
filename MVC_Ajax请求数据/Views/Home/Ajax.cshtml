@@ -7,7 +7,7 @@
     $(document).ready(function () {
         $("#btn").click(function () {
             $.ajax({
-                url: "JsonGet",//发送到本页面后台AjaxMethod方法
+                url: "AjaxGet",//发送到本页面后台AjaxMethod方法
                 type: "POST",
                 dataType: "json",
                 //async: true,//async翻译为异步的，false表示同步，会等待执行完成，true为异步
@@ -15,7 +15,7 @@
                 data: "{id:'" + "1" + "',name:'" + "wmy" + "'}",
                 success: function (json) {
                     //$("#result").html(data.d);
-                    alert(json.result);
+                    alert(json.msg);
                     $.each(json.data, function (i, data) {
                         
                         alert(data.Id);

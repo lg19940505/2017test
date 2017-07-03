@@ -28,6 +28,7 @@ namespace ConsoleApplication1
         static async Task<int> CountCharsAsync(string url)
         {
             WebClient wc = new WebClient();
+            Console.WriteLine("111"+url);
             string result = await wc.DownloadStringTaskAsync(new Uri(url));
             /* 
              * 1、以前我们用Thread.Sleep(1000)，这是它的替代方式              
@@ -35,7 +36,8 @@ namespace ConsoleApplication1
              * 3、Thread.Sleep 会阻塞线程，Task.Delay不会。 
              * 4、Thread.Sleep不能取消，Task.Delay可以。 
              */
-            await Task.Delay(1000);
+            Console.WriteLine("aaa"+url);
+            //await Task.Delay(1000);
             return result.Length;
         }
     }
