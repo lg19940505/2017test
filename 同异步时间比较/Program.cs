@@ -83,8 +83,10 @@ namespace 同异步时间比较
             Console.WriteLine("DoCount2当前线程，id是" + Thread.CurrentThread.ManagedThreadId);
             //string slExecutedTime = (DateTime.Now - startTime).ToString();
             //Console.WriteLine(slExecutedTime);
+
             Console.WriteLine("Docount"+x1);
             return x1;
         }
     }
+
 }

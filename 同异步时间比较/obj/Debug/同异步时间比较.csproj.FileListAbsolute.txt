@@ -4,3 +4,6 @@ D:\git\test\2017test\同异步时间比较\bin\Debug\同异步时间比较.pdb
 D:\git\test\2017test\同异步时间比较\obj\Debug\同异步时间比较.exe
 D:\git\test\2017test\同异步时间比较\obj\Debug\同异步时间比较.pdb
 D:\git\test\2017test\同异步时间比较\obj\Debug\同异步时间比较.csprojResolveAssemblyReference.cache
+D:\项目\我的测试项目\2017test\同异步时间比较\bin\Debug\同异步时间比较.exe.config
+D:\项目\我的测试项目\2017test\同异步时间比较\obj\Debug\同异步时间比较.exe
+D:\项目\我的测试项目\2017test\同异步时间比较\obj\Debug\同异步时间比较.pdb
