@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Ajax请求数据", "MVC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "同异步时间比较", "同异步时间比较\同异步时间比较.csproj", "{79FD7AF3-DF1C-4868-9F71-1F1D2A69FE43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sweetalertDemo", "WebApplication1\sweetalertDemo.csproj", "{ED93780D-97F3-4621-AB2A-0DDDE9E8F80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "redis", "redis\redis.csproj", "{EC9C5D38-B221-4EFE-8191-B476EC0CB705}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{79FD7AF3-DF1C-4868-9F71-1F1D2A69FE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FD7AF3-DF1C-4868-9F71-1F1D2A69FE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FD7AF3-DF1C-4868-9F71-1F1D2A69FE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED93780D-97F3-4621-AB2A-0DDDE9E8F80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED93780D-97F3-4621-AB2A-0DDDE9E8F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED93780D-97F3-4621-AB2A-0DDDE9E8F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED93780D-97F3-4621-AB2A-0DDDE9E8F80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9C5D38-B221-4EFE-8191-B476EC0CB705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9C5D38-B221-4EFE-8191-B476EC0CB705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9C5D38-B221-4EFE-8191-B476EC0CB705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9C5D38-B221-4EFE-8191-B476EC0CB705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
