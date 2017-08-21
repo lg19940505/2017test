@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Content/jquery-1.9.1.min.js"></script>
+<script src="~/Content/ajaxfileupload.js"></script>
+<script>
+    function uploadFile(fileData, eml) {
+        if (fileData.length == 0)
+            return false;
+        $.ajaxFileUpload(
+                {
+                    url: '/upLoad/GetFile', //用于文件上传的服务器端请求地址
+                    secureuri: false, //是否需要安全协议，一般设置为false
+                    fileElementId:eml, //文件上传域的ID
+                    dataType: 'json', //返回值类型 一般设置为json
+                    type:'post',
+                    success: function (data, status)  //服务器成功响应处理函数
+                    {
+                        var img = document.createElement("img");
+                        img.style.width = "50px";
+                        img.style.height = "50px";
+                        img.style.margin = "10px";
+                        img.style.float = "left";
+                        img.src = data.src;
+                        document.getElementById("imgs").appendChild(img);
+                    },
+                    error: function (data, status, e)//服务器响应失败处理函数
+                    {
+                        alert(e);
+                    }
+                }
+            )
+        return false;
+    }
+    function ImportFile(fileData, eIdName) {
+
+        if (fileData.length == 0) {
+            return;
+        }
+        $.ajaxFileUpload({
+            url: '/upLoad/GetFile',
+            secureuri: false,
+            fileElementId: eIdName,
+            dataType: 'text',
+            type: 'post',
+            success: function (data) {
+                if (data != "") {
+                    alert(data);
+                } else {
+                    alert("文件导入成功.");
+                }
+            },
+            error: function (e) {
+                alert(e);
+            }
+        });
+    }
+    function eClick(id) {
+        $("#" + id).click();
+    }
+
+</script>
+<h2>Index</h2>
+<input type="file" style="width:100px;height:80px;" id="iFile" name="iFile" onchange="uploadFile(this.files, 'iFile')"  /> 
+<div id="imgs">
+    
+</div>
+

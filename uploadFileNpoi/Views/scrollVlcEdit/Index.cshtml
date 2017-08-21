@@ -1,0 +1,75 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <script src="~/Content/jquery-1.9.1.min.js"></script>
+    <script src="~/Content/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/Content/Gckeditor471/ckeditor.js"></script>
+    <script>
+     
+        window.onload = function () {
+            CKEDITOR.replace('editorSpace');
+        };
+
+    </script>
+</head>
+<body>
+    <div id="ms" style="width:auto;height:600px"> 
+   
+        <div id="vlc" style="height:600px;width:500px">
+         
+        </div>
+        <textarea id="editorSpace">请编辑以下内容</textarea>
+    </div>
+    <script>
+        $("#ms").mCustomScrollbar({
+            theme: "dark",
+            set_width: "100%"
+        });
+        var VLCPlayer = document.createElement("OBJECT");
+        VLCPlayer.id = "aa";
+        document.getElementById("vlc").appendChild(VLCPlayer);// 先添加标签节点<OBJECT>,再设置节点属性信息
+
+        VLCPlayer.height = "300px";
+        VLCPlayer.width = "400px";
+
+        // 判断浏览器类型，设置节点属性
+        var userAg = navigator.userAgent;
+        if (-1 != userAg.indexOf("MSIE")) {
+            VLCPlayer.setAttribute("classid", "clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921");
+        }
+        else if (-1 != userAg.indexOf("Firefox") || -1 != userAg.indexOf("Chrome") || -1 != userAg.indexOf("Opera") || -1 != userAg.indexOf("Safari")) {
+            VLCPlayer.setAttribute("type", "application/x-vlc-plugin");
+        }
+       
+        //加载待播放视频源地址
+        VLCPlayer.setAttribute("data", "~/Content/125.avi");
+
+
+        // 根据使用需求配置播放器的参数
+        var vhtml = "";
+        vhtml += "<PARAM NAME=\"AutoLoop\" VALUE=\"0\">";
+        vhtml += "<PARAM NAME=\"Volume\" VALUE=\"50\">";
+        vhtml += " <PARAM NAME=\"AutoPlay\" VALUE=\"FALSE\">";
+        vhtml += "<PARAM NAME=\"FullscreenEnabled\" VALUE=\"TRUE\">";
+
+        VLCPlayer.innerHTML = vhtml;// 将配置参数增加到标签内
+
+        document.getElementById("vlc").innerHTML = document.getElementById("vlc").innerHTML;  // 注释20170713以后优化版本
+        var vlcP = document.getElementById("aa");
+        vlcP.style.width = "400px";
+        vlcP.style.height = "300px";
+        vlcP.setAttribute("width", "400px");
+        vlcP.setAttribute("height", "300px");
+        vlcP.setAttribute('wmode', 'transparent');//背景透明
+    </script>
+</body>
+</html>
