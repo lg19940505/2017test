@@ -1,0 +1,5 @@
+D:\项目\我的测试项目\2017test\debugDLL\bin\Release\debugDLL.exe.config
+D:\项目\我的测试项目\2017test\debugDLL\bin\Release\debugDLL.exe
+D:\项目\我的测试项目\2017test\debugDLL\bin\Release\debugDLL.pdb
+D:\项目\我的测试项目\2017test\debugDLL\obj\Release\debugDLL.exe
+D:\项目\我的测试项目\2017test\debugDLL\obj\Release\debugDLL.pdb

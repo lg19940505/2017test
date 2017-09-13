@@ -1,0 +1,4 @@
+D:\项目\我的测试项目\2017test\asyncTest\bin\Release\asyncTest.dll
+D:\项目\我的测试项目\2017test\asyncTest\bin\Release\asyncTest.pdb
+D:\项目\我的测试项目\2017test\asyncTest\obj\Release\asyncTest.dll
+D:\项目\我的测试项目\2017test\asyncTest\obj\Release\asyncTest.pdb

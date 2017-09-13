@@ -1,0 +1,5 @@
+D:\项目\我的测试项目\2017test\同异步时间比较\bin\Release\同异步时间比较.exe.config
+D:\项目\我的测试项目\2017test\同异步时间比较\bin\Release\同异步时间比较.exe
+D:\项目\我的测试项目\2017test\同异步时间比较\bin\Release\同异步时间比较.pdb
+D:\项目\我的测试项目\2017test\同异步时间比较\obj\Release\同异步时间比较.exe
+D:\项目\我的测试项目\2017test\同异步时间比较\obj\Release\同异步时间比较.pdb

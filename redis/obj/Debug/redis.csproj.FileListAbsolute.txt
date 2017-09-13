@@ -1,14 +1,1 @@
 D:\项目\我的测试项目\2017test\redis\bin\Debug\redis.exe.config
-D:\项目\我的测试项目\2017test\redis\bin\Debug\redis.exe
-D:\项目\我的测试项目\2017test\redis\bin\Debug\redis.pdb
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Common.dll
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Interfaces.dll
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Redis.dll
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Text.dll
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Common.xml
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Interfaces.xml
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Redis.xml
-D:\项目\我的测试项目\2017test\redis\bin\Debug\ServiceStack.Text.xml
-D:\项目\我的测试项目\2017test\redis\obj\Debug\redis.csprojResolveAssemblyReference.cache
-D:\项目\我的测试项目\2017test\redis\obj\Debug\redis.exe
-D:\项目\我的测试项目\2017test\redis\obj\Debug\redis.pdb

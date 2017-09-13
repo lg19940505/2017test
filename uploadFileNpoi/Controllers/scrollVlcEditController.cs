@@ -13,5 +13,10 @@ namespace uploadFileNpoi.Controllers
         {
             return View();
         }
+        //http://blog.sina.com.cn/s/blog_6f7ef65401015qa3.html   编辑器
+        public ActionResult Edit()
+        {
+            return View();
+        }
     }
 }

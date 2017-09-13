@@ -1,0 +1,14 @@
+D:\项目\我的测试项目\2017test\redis\bin\Release\redis.exe.config
+D:\项目\我的测试项目\2017test\redis\bin\Release\redis.exe
+D:\项目\我的测试项目\2017test\redis\bin\Release\redis.pdb
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Common.dll
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Interfaces.dll
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Redis.dll
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Text.dll
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Common.xml
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Interfaces.xml
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Redis.xml
+D:\项目\我的测试项目\2017test\redis\bin\Release\ServiceStack.Text.xml
+D:\项目\我的测试项目\2017test\redis\obj\Release\redis.csprojResolveAssemblyReference.cache
+D:\项目\我的测试项目\2017test\redis\obj\Release\redis.exe
+D:\项目\我的测试项目\2017test\redis\obj\Release\redis.pdb

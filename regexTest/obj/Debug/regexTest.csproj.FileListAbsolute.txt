@@ -4,6 +4,3 @@ C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\bin\Debug
 C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.csprojResolveAssemblyReference.cache
 C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.exe
 C:\Users\LG\documents\visual studio 2015\Projects\异步test\regexTest\obj\Debug\regexTest.pdb
-D:\项目\我的测试项目\2017test\regexTest\bin\Debug\regexTest.exe.config
-D:\项目\我的测试项目\2017test\regexTest\obj\Debug\regexTest.exe
-D:\项目\我的测试项目\2017test\regexTest\obj\Debug\regexTest.pdb

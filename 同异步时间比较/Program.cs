@@ -32,7 +32,7 @@ namespace 同异步时间比较
             //startTime = DateTime.Now;
             Console.WriteLine("当前线程，id是" + Thread.CurrentThread.ManagedThreadId);
             //slExecutedTime = (DateTime.Now - startTime).ToString();
-            Console.WriteLine(task1.Result);
+            Console.WriteLine(task1.Result+"ssss");
             Console.WriteLine(slExecutedTime);
             Console.Read();
             #endregion

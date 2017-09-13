@@ -1,0 +1,5 @@
+D:\项目\我的测试项目\2017test\IO\bin\Release\IO.exe.config
+D:\项目\我的测试项目\2017test\IO\bin\Release\IO.exe
+D:\项目\我的测试项目\2017test\IO\bin\Release\IO.pdb
+D:\项目\我的测试项目\2017test\IO\obj\Release\IO.exe
+D:\项目\我的测试项目\2017test\IO\obj\Release\IO.pdb

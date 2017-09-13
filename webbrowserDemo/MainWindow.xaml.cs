@@ -27,10 +27,10 @@ namespace webbrowserDemo
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            Uri uri = new Uri(textBox.Text);
+            Uri uri = new Uri("http://localhost:8579/Plan/GIndex");
             string sss = "项目";
             web1.Navigate(uri);
-            MessageBox.Show(@"file:///D:/%E9%A1%B9%E7%9B%AE/Code/Bin/KJEditorCZY/L43L45L30L37L30L36L34L31L37L41L30L30L4FL42L41L41L41/L43L45L30L37L30L36L34L31L37L41L30L30L4FL42L41L41L41.html");
+           // MessageBox.Show(@"file:///D:/%E9%A1%B9%E7%9B%AE/Code/Bin/KJEditorCZY/L43L45L30L37L30L36L34L31L37L41L30L30L4FL42L41L41L41/L43L45L30L37L30L36L34L31L37L41L30L30L4FL42L41L41L41.html");
         }
     }
 }

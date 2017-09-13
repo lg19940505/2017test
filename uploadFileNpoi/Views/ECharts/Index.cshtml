@@ -22,7 +22,13 @@
             title: {
                 text: 'ECharts 入门示例'
             },
-            tooltip: {},
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross'
+                },
+                formatter: '{b0}: {c0}<br />{c1}'
+            },
             legend: {
                 data: ['销量', '销量2'],
                 selected: {

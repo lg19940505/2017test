@@ -1,0 +1,9 @@
+D:\项目\我的测试项目\2017test\dllDebug\bin\Release\dllDebug.exe.config
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.Properties.Resources.resources
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.csproj.GenerateResource.Cache
+D:\项目\我的测试项目\2017test\dllDebug\bin\Release\dllDebug.exe
+D:\项目\我的测试项目\2017test\dllDebug\bin\Release\dllDebug.pdb
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.exe
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.pdb
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.Form1.resources
+D:\项目\我的测试项目\2017test\dllDebug\obj\Release\dllDebug.csprojResolveAssemblyReference.cache

@@ -13,12 +13,18 @@ namespace MVC_Ajax请求数据.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            
             return View();
         }
         public ActionResult Ajax()
         {
             return View();
+        }
+
+        [HttpGet]
+        public JsonResult GetTest(int id)
+        {
+            return Json(new { data="aa"},JsonRequestBehavior.AllowGet);
         }
 
         #region mvc中ajax必须返回jsonresult  否则会执行错误代码
@@ -53,8 +59,9 @@ namespace MVC_Ajax请求数据.Controllers
             return JsonResultModel<IEnumerable<People>>.ReturnSuccess(peoples);
 
 
-        } 
+        }
         #endregion
+
         [HttpPost]
         public JsonResult JsonGet(int id, string name)
         {
@@ -63,14 +70,16 @@ namespace MVC_Ajax请求数据.Controllers
             p1.Id = id;
             p1.name = name;
             People p2 = new People();
-            p2.Id = 2;
+            p2.Id = 5;
             p2.name = "lg";
             peoples.Add(p1);
             peoples.Add(p2);
             return Json(new { data = peoples, result = "true" }, JsonRequestBehavior.AllowGet);
-
-
         }
+
+        
+
+
         [HttpGet]
         public JsonResult Json()
         {

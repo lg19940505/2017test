@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Content/jquery-1.9.1.min.js"></script>
+    <script src="~/Content/Gckeditor471/ckeditor.js"></script>
+    <title>Edit</title>
+    <script>
+        var editor;
+        function CreateEditor(id) {
+            if (editor) {
+                alert("请先关闭正在编辑的内容...");//20170710
+                return;
+            }
+            var config = {};
+            config.language = 'zh-cn';
+            config.width = '600px';
+            config.height = '200px';
+
+            var htmlStr = $(id).html();
+            editor=CKEDITOR.appendTo(id, config, htmlStr);
+            
+
+        }
+
+        function destory() {
+            var data = editor.getData();
+            $("#t1").html(data);
+            editor.destroy();
+            editor = null;
+        }
+    </script>
+</head>
+<body>
+    <div> 
+        <p id="t1" ondblclick="CreateEditor(this)">这是一个编辑器的例子</p>
+        <button  onclick="destory()">销毁</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  CSharpInvokeCPP.cpp
+  dllmain.cpp
+    正在创建库 D:\项目\我的测试项目\2017test\Release\CSharpInvokeCPP.lib 和对象 D:\项目\我的测试项目\2017test\Release\CSharpInvokeCPP.exp
+  正在生成代码
+  已完成代码的生成
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  CSharpInvokeCPP.vcxproj -> D:\项目\我的测试项目\2017test\Release\CSharpInvokeCPP.dll
+  CSharpInvokeCPP.vcxproj -> D:\项目\我的测试项目\2017test\Release\CSharpInvokeCPP.pdb (Full PDB)

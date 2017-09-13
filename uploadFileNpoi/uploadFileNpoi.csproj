@@ -695,6 +695,7 @@
     <Content Include="Views\scrollVlcEdit\Index.cshtml" />
     <Content Include="Views\ECharts\updata.cshtml" />
     <Content Include="Views\ECharts\dataZoom.cshtml" />
+    <Content Include="Views\scrollVlcEdit\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
