@@ -10,6 +10,7 @@ namespace MVC_Ajax请求数据.Controllers
 {
     public class HomeController : Controller
     {
+        //sssssss
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
@@ -26,6 +27,7 @@ namespace MVC_Ajax请求数据.Controllers
         {
             return Json(new { data="aa"},JsonRequestBehavior.AllowGet);
         }
+
 
         #region mvc中ajax必须返回jsonresult  否则会执行错误代码
         [HttpPost]

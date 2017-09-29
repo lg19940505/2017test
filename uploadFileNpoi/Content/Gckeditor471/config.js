@@ -12,7 +12,7 @@ CKEDITOR.editorConfig = function( config )
 //config.shiftEnterMode = CKEDITOR.ENTER_P;
 
    config.language = 'fr';
- 
+   config.baseFloatZIndex = 2000;
    config.uiColor = '#AADC6E';
 
 
